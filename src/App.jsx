@@ -1,9 +1,8 @@
 import ReactFullpage from '@fullpage/react-fullpage'
 import React from 'react'
+import pluginWrapper from './statics/fullpage.scrollHorizontally.min';
 
-const pluginWrapper = () => {
-  require('./statics/fullpage.scrollHorizontally.min');
-};
+
 
 
 const App = () => {
