@@ -1,25 +1,23 @@
-import Slides from "./easy-fullscreen/src/Slides";
+import {EasyFullScreen}  from "@thekhalidsha/easy-fullscreen";
+// import '@thekhalidsha/easy-fullscreen/dist/styles.css'
 
 function App() {
   return (
     <>
-      <Slides>
-        <section>
-          <h1>slide 11</h1>
-        </section>
-        <section>
-          <h1>slide 21</h1>
-        </section>
-        <section>
-          <h1>slide 31</h1>
-        </section>
-        <section>
-          <h1>slide 41</h1>
-        </section>
-        <section>
-          <h1>slide 51</h1>
-        </section>
-      </Slides>
+    <EasyFullScreen direction={''}>
+      <div>
+        <h1>Full Screen</h1>
+      </div>
+      <div>
+        <h1>Full Screen</h1>
+      </div>
+      <div>
+        <h1>Full Screen</h1>
+      </div>
+      <div>
+        <h1>Full Screen</h1>
+      </div>
+    </EasyFullScreen>
     </>
   );
 }
