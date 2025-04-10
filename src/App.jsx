@@ -1,35 +1,27 @@
-import ReactFullpage from '@fullpage/react-fullpage'
-import React from 'react'
+import Slides from "./easy-fullscreen/src/Slides";
 
-
-
-
-const App = () => {
-  console.clear();
+function App() {
   return (
-    <ReactFullpage
-    //fullpage options
-    licenseKey = {'YOUR_KEY_HERE'}
-    scrollingSpeed = {1000} /* Options here */
-
-    render={({ state, fullpageApi }) => {
-      return (
-        <ReactFullpage.Wrapper>
-          <div className="section">
-            <p>Section 1 (welcome to fullpage.js)</p>
-            <button onClick={() => fullpageApi.moveSectionDown()}>
-              Click me to move down
-            </button>
-          </div>
-          <div className="section">
-            <p>Section 2</p>
-          </div>
-        </ReactFullpage.Wrapper>
-      );
-    }}
-  />
-);
-
+    <>
+      <Slides>
+        <section>
+          <h1>slide 11</h1>
+        </section>
+        <section>
+          <h1>slide 21</h1>
+        </section>
+        <section>
+          <h1>slide 31</h1>
+        </section>
+        <section>
+          <h1>slide 41</h1>
+        </section>
+        <section>
+          <h1>slide 51</h1>
+        </section>
+      </Slides>
+    </>
+  );
 }
 
-export default App
+export default App;
