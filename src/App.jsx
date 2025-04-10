@@ -5,6 +5,7 @@ import React from 'react'
 
 
 const App = () => {
+  console.clear();
   return (
     <ReactFullpage
     //fullpage options
