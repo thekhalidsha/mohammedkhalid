@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Slides.module.css';
 
 const Slides = ({ children }) => {
@@ -13,6 +13,14 @@ const Slides = ({ children }) => {
     }
   };
   const navDotsCount = children.length
+  useEffect(() => {
+    window.addEventListener('wheel', ()=>{
+      console.log('fghj')
+    }); // Listen to scroll events
+    // return () => {
+    //   window.removeEventListener('scroll', handleScroll);
+    // };
+  }, []);
   return (
     <>
       <div className={`${styles.y_wrapper}`}>
