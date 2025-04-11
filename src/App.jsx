@@ -1,23 +1,17 @@
-import {EasyFullScreen}  from "@thekhalidsha/easy-fullscreen";
-// import '@thekhalidsha/easy-fullscreen/dist/styles.css'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import PublicLayout from "./layouts/PublicLayout";
 
 function App() {
   return (
     <>
-    <EasyFullScreen direction={''}>
-      <div>
-        <h1>Full Screen</h1>
-      </div>
-      <div>
-        <h1>Full Screen</h1>
-      </div>
-      <div>
-        <h1>Full Screen</h1>
-      </div>
-      <div>
-        <h1>Full Screen</h1>
-      </div>
-    </EasyFullScreen>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<PublicLayout />}>
+            <Route index element={<HomePage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

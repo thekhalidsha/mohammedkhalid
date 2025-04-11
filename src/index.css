@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-primary: #4831d4;
+    --color-secondary: #ccf381;
+    /* --color-canvas: #EDE6DB;
+    --color-accent: #A9D6E5;
+    --color-highlight: #89C9B8; */
+
+}
+
+.line-height-dot{
+    line-height: 0;
+}
