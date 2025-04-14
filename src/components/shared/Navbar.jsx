@@ -2,18 +2,16 @@ import React from 'react'
 import Container from './Container'
 import { AlignRight, MenuIcon } from 'lucide-react'
 
-const Navbar = () => {
+const Navbar = ({className}) => {
     return (
-        <Container className={'fixed w-auto border'}>
-            <nav className="">
-                <ul className="flex justify-between items-center p-16">
-                    <li className="text-2xl font-bold">
-                        Kodejex
-                    </li>
-                    <li className="text-2xl font-bold"> <AlignRight /> </li>
-                </ul>
-            </nav>
-
+        <Container className={`${className}`}>
+            <div className="flex h-full w-full justify-around items-center">
+                <div>About</div>
+                <div>Resume</div>
+                <div>Portfolio</div>
+                <div>Blog</div>
+                <div>Contact</div>
+            </div>
         </Container>
     )
 }
