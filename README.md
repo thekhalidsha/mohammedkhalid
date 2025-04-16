@@ -51,7 +51,6 @@ npm run lint
 ## 🌟 Features
 
 - Clean and responsive UI  
-- Dark mode ready (optional)  
 - GitHub contributions graph  
 - Social media links with brand icons  
 - Interactive navigation with React Router  
