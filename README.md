@@ -58,7 +58,7 @@ npm run lint
 
 ## 📈 Live Preview
 
-Coming soon...
+[https://thekhalidsha.vercel.app](https://thekhalidsha.vercel.app)
 
 ---
 
