@@ -24,29 +24,29 @@ This is the source code for my personal portfolio website, built using modern we
 ## 🛠️ Development Setup
 
 ### Install dependencies
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Run in development
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ### Build for production
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ### Preview production build
-\`\`\`bash
+```bash
 npm run preview
-\`\`\`
+```
 
 ### Lint the code
-\`\`\`bash
+```bash
 npm run lint
-\`\`\`
+```
 
 ## 🌟 Features
 
@@ -63,4 +63,4 @@ Coming soon...
 
 ---
 
-Made with ❤️ by \`Mohammed Khalid\`
+Made with ❤️ by `Mohammed Khalid`
