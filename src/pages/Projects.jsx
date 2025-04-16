@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className='max-w-screen-xl w-full mx-auto px-4 py-8 lg:py-16 '>
         <ProjectsHeader/>
-        <ProjectsListing/>
+        {/* <ProjectsListing/> */}
     </div>
   )
 }
