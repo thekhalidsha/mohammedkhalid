@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import ContactModal from './ContactModal';
-import { LucideMenu } from 'lucide-react';
+import { FileDownIcon, LucideMenu, SquareArrowOutUpRightIcon } from 'lucide-react';
 
 const Navbar = () => {
     const [openModal, setopenModal] = useState(false);
@@ -21,7 +21,9 @@ const Navbar = () => {
                         <span className="text-zinc-700 hover:text-black font-heading self-center text-3xl  rounded-lg p-1 border-zinc-400 font-semibold whitespace-nowrap dark:text-white">MK</span>
                     </Link>
                     <div className="max-md:mr-4 flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+                        <a href='/docs/Mohammed Khalid-20250503.pdf' target='_blank' className="flex justify-between gap-2 items-center text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-4 py-2 text-center cursor-pointer">
+                            Resume <SquareArrowOutUpRightIcon className='max-lg:size-4 size-5'/>
+                        </a>
                         <button onClick={toggleMenu} data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                             <span className="sr-only">Open main menu</span>
                             <LucideMenu className='fill-zinc-700 text-zinc-700'/>

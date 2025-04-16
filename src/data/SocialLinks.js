@@ -1,15 +1,16 @@
+import { SiFacebook, SiGithub, SiInstagram, SiLinkerd } from '@icons-pack/react-simple-icons';
 import { Instagram, Facebook, GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';  // Importing Lucide icons
 
 const socialLinks = [
   {
     title: 'Instagram',
     link: 'https://instagram.com/thekhalidsha',
-    icon: Instagram
+    icon: SiInstagram
   },
   {
     title: 'Facebook',
     link: 'https://facebook.com/thekhalidsha',
-    icon: Facebook
+    icon: SiFacebook
   },
   {
     title: 'LinkedIn',
@@ -19,7 +20,7 @@ const socialLinks = [
   {
     title: 'GitHub',
     link: 'https://github.com/thekhalidsha',
-    icon: GithubIcon
+    icon: SiGithub
   },
   {
     title: 'Email',

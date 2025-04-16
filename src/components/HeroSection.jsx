@@ -26,7 +26,7 @@ const HeroSection = () => {
                                         href={social.link}
                                     >
                                         <div className="flex items-end h-full">
-                                            <social.icon className="size-6 flex-shrink-0 text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300" />
+                                            <social.icon className="size-5 flex-shrink-0 text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300" />
                                         </div>
                                         <p className="ml-1 flex leading-4 group-hover:text-zinc-500">
                                             {social.title}

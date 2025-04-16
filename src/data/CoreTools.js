@@ -1,4 +1,4 @@
-import { SiCpanel, SiCss3, SiDjango, SiExpress, SiFigma, SiGit, SiGithub, SiHtml5, SiJavascript, SiLinux, SiMongodb, SiMysql, SiNodedotjs, SiNpm, SiPhp, SiPhpmyadmin, SiPostman, SiPython, SiReact, SiRedux, SiShell, SiVercel, SiVscodium, SiVscodiumHex } from "@icons-pack/react-simple-icons";
+import { SiCpanel, SiCss3, SiDjango, SiExpress, SiFigma, SiFirebase, SiGit, SiGithub, SiGnubash, SiHtml5, SiJavascript, SiLinux, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiNpm, SiPhp, SiPhpmyadmin, SiPostman, SiPython, SiReact, SiRedux, SiShell, SiTailwindcss, SiVercel, SiVscodium, SiVscodiumHex } from "@icons-pack/react-simple-icons";
 
 const coreTools = [
     {
@@ -20,9 +20,13 @@ const coreTools = [
     { "name": "Linux", "icon": SiLinux },
     { "name": "Postman", "icon": SiPostman },
     { "name": "VS Code", "icon": SiVscodium },
-    { "name": "Bash", "icon": SiShell },
+    { "name": "Bash", "icon": SiGnubash },
     { "name": "Vercel", "icon": SiVercel },
     { "name": "Cpanel", "icon": SiCpanel },
     { "name": "Figma", "icon": SiFigma },
+    { "name": "Tailwind CSS", "icon": SiTailwindcss },
+    { "name": "Firebase", "icon": SiFirebase },
+    { "name": "NextJS", "icon": SiNextdotjs },
+
 ]
 export default coreTools;
