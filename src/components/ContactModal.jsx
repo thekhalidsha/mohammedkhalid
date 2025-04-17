@@ -9,7 +9,7 @@ const ContactModal = ({ toggleModal }) => {
     console.log(socialContacts)
 
     return (
-        <div className='top-0 fixed h-screen w-full z-50'>
+        <div className='top-0 left-0 fixed h-screen w-full z-50'>
             <div className='backdrop-blur-md backdrop-opacity-100 font-heading text-9xl h-full flex justify-center items-center'>
                 <div className='absolute min-h-screen w-full -z-10' onClick={toggleModal}></div>
                 <div className='max-w-screen-sm h-1/2 mx-auto px-4 py-8 lg:py-16'>

@@ -4,6 +4,8 @@ import PublicLayout from "./layouts/PublicLayout";
 import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 import SideBar from "./components/SideBar";
+import ProjectDetail from "./pages/ProjectDetail";
+import ProjectDetailss from "./components/Test";
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<PublicLayout />}>
             <Route index element={<HomePage />} />
-            <Route path="contact" element={<HomePage />} />
             <Route path="portfolio" element={<Projects />} />
+            <Route path="/portfolio/:id" element={<ProjectDetailss />} />
           </Route>
           <Route path="*" element={<NotFound />} />
           <Route path="/test" element={<SideBar />} />

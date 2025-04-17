@@ -4,8 +4,8 @@ import ContactModal from './ContactModal';
 import { FileDownIcon, LucideMenu, SquareArrowOutUpRightIcon } from 'lucide-react';
 
 const Navbar = () => {
-    const [openModal, setopenModal] = useState(false);
     const [openMenu, setopenMenu] = useState(false);
+    const [openModal, setopenModal] = useState(false);
 
     const toggleModal = () =>{
         setopenModal((prev)=> !prev)
