@@ -29,7 +29,7 @@ const ProjectDetail = ({ toggleDetailModal, project }) => {
                     <div id="getintouch" className="w-full h-full overflow-hidden rounded-xl bg-zinc-200 p-6 md:p-6 shadow-xl">
                         <div className="w-full rounded-md h-full max-h-full overflow-hidden bg-zinc-200  z-50">
                                 <div className="text-left flex flex-col border-b">
-                                    <div className='flex justify-between py-2'>
+                                    <div className='flex justify-between py-2 mx-2'>
                                         <h2 className="font-heading text-2xl md:text-3xl font-semibold">{selectedProject.title}</h2>
                                         <div className='flex gap-2'>
                                             <a target='_blank' href={selectedProject.github} className="font-semibold flex justify-between gap-2 items-center text-zinc-700 bg-zinc-100 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm px-2 py-1 text-center cursor-pointer">
