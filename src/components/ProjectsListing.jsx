@@ -1,6 +1,6 @@
 import { ArrowRightCircle, ArrowUpRightFromCircleIcon, GlobeIcon, SquareArrowOutUpRight } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
-import projectsData from '../data/Projects'
+import projectsData from '../data/Projects.jsx'
 import { SiPhp } from '@icons-pack/react-simple-icons'
 import ProjectDetail from '../pages/ProjectDetail'
 
@@ -33,18 +33,18 @@ const ProjectsListing = () => {
                                             height="60"
                                             decoding="async"
                                             data-nimg="1"
-                                            className="dark:bg-zinc-800 bg-zinc-100 rounded-md md:p-2"
+                                            className="dark:bg-zinc-800 bg-zinc-100 rounded-md md:p-2 lg:min-w-[50px]"
                                             src={project.image}
 
                                         />
                                         :
-                                        project.icon ? <project.icon className="dark:bg-zinc-800 bg-zinc-100 rounded-md md:p-2" width={60} height={60} />
+                                        project.icon ? <project.icon className="dark:bg-zinc-800 bg-zinc-100 rounded-md md:p-2 lg:min-w-[50px]" width={60} height={60} />
                                             :
-                                            <GlobeIcon className="dark:bg-zinc-800 bg-zinc-100 rounded-md md:p-2" width={60} height={60} />
+                                            <GlobeIcon className="dark:bg-zinc-800 bg-zinc-100 rounded-md p-2 lg:min-w-[50px]" width={60} height={60} />
                                 }
-                                <div>
+                                <div className='w-full overflow-hidden'>
                                     <h2 className="text-lg tracking-wide mb-1">{project.title}</h2>
-                                    <div className="text-sm dark:text-zinc-400 text-zinc-600">{project.description}</div>
+                                    <div className="text-sm dark:text-zinc-400 text-zinc-600 text-ellipsis max-h-10 overflow-auto">{project.description}</div>
                                 </div>
                             </div>
                             <div className='pt-2 flex justify-between'>

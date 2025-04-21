@@ -31,11 +31,11 @@ const ProjectDetail = ({ toggleDetailModal, project }) => {
                                 <div className="text-left flex flex-col border-b">
                                     <div className='flex justify-between py-2 mx-2'>
                                         <h2 className="font-heading text-2xl md:text-3xl font-semibold">{selectedProject.title}</h2>
-                                        <div className='flex gap-2'>
-                                            <a target='_blank' href={selectedProject.github} className="font-semibold flex justify-between gap-2 items-center text-zinc-700 bg-zinc-100 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm px-2 py-1 text-center cursor-pointer">
-                                                <SiGithub className='max-lg:size-4 size-5' />
+                                        <div className='flex gap-2 items-center justify-center'>
+                                            <a target='_blank' href={selectedProject.github} className="h-10 w-10 font-semibold flex justify-center items-center text-zinc-700 bg-zinc-100 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm text-center cursor-pointer">
+                                                <SiGithub className='max-lg:size-4 size-5 ' />
                                             </a>
-                                            <button onClick={toggleDetailModal} className='font-semibold flex justify-between gap-2 items-center text-zinc-700 bg-zinc-100 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm px-2 py-1 text-center cursor-pointer'>
+                                            <button onClick={toggleDetailModal} className='h-10 w-10 font-semibold flex justify-center items-center text-zinc-700 bg-zinc-100 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm px-2 py-1 text-center cursor-pointer'>
                                                 <X className='max-lg:size-4 size-5' />
                                             </button>
                                         </div>
