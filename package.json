@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "postbuild": "cp README.md dist/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
