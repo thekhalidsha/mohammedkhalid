@@ -3,7 +3,8 @@ import GitHubCalendar from 'react-github-calendar'
 
 const ContributionsGraph = () => {
     const myTheme = {
-        light: ['#ebedf0', '#9f9fa9', '#71717b', '#52525c', '#27272a',], 
+        light: ['#ebedf0', 'var(--graph-2)', 'var(--graph-3)', 'var(--graph-4)', 'var(--graph-5)',], 
+        // light: ['#ebedf0', '#9f9fa9', '#71717b', '#52525c', '#27272a',], 
         // dark: ['#161b22', '#ffcccc', '#ff9999', '#ff6666', '#27272a'],
       };
       

@@ -6,7 +6,8 @@ const ProjectsHeader = () => {
             <h2 className="font-heading font-semibold text-5xl text-zinc-700 pb-8">Projects</h2>
             <div>
                 <p className='font-normal max-w-screen-md text-md text-zinc-700'>
-                    This Page is still under development! will be updating the page really soon!
+                    Some projects that showcase my skills and creativity.
+                    {/* This Page is still under development! will be updating the page really soon! */}
                     {/* I've worked on tons of little projects over the years but these are the ones that I'm most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas on how it can be improved. */}
                 </p>
             </div>

@@ -42,24 +42,15 @@ body {
   font-family: Incognito, sans-serif;
 }
 @theme {
-  --color-canvas: #121212;
-  --color-primary: #1e1e1f;
-  --color-secondary: #2b2b2c;
-  --color-t_primary: #fafafa;
-  --color-t_secondary: #d6d6d6;
-  --color-jet: #383838;
-  --color-highlight: #00ff9c;
+  --color-highlight: #4f89ef; /* Master Primary Color [CHANGE THIS IF NEEDED TO CHANGE THE PRIMARY COLOR] */
   --font-heading: "Incognito", sans-serif;
-  /* --color-canvas: #EDE6DB;
-    --color-accent: #A9D6E5;
-    --color-highlight: #89C9B8; */
+  
+  
+  --graph-5: var(--color-highlight);
+  --graph-4: color-mix(in srgb, var(--graph-5) 80%, white);
+  --graph-3: color-mix(in srgb, var(--graph-5) 60%, white);
+  --graph-2: color-mix(in srgb, var(--graph-5) 40%, white);
 }
-/* .canvas-custom {
-  background-color: #ffff;
-  background: url("/images/bg.png");
-  background-size: 200;
-  background-position: 0 0;
-} */
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -68,7 +59,6 @@ body {
 .line-height-dot {
   line-height: 0;
 }
-
 
 .clamp {
   display: -webkit-box;
@@ -83,4 +73,9 @@ body {
   display: block;
   line-height: 1.5em;
   max-height: 3.5em; /* 3 lines * line-height */
+}
+
+.font-semibold,
+.font-bold {
+  color: var(--color-highlight);
 }

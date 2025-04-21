@@ -32,13 +32,13 @@ const Navbar = () => {
                     <div className={`items-center justify-between ${openMenu ? 'block' : 'hidden'} max-lg:mt-4 max-md:bg-zinc-100 w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
                         <ul className={`${openMenu ? 'max-md:translate-x-0' : 'max-md:translate-x-full'} transform transition-transform duration-500  text-zinc-700 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700`}>
                             <li>
-                                <Link to="/" className="hover:text-black block py-2 px-3 rounded-sm md:bg-transparent md:p-0 " aria-current="page">Home</Link>
+                                <Link to="/" className=" block py-2 px-3 rounded-sm md:bg-transparent md:p-0 hover:text-highlight" aria-current="page">Home</Link>
                             </li>
                             <li>
-                                <Link to="portfolio" className="hover:text-black block py-2 px-3  rounded-sm hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Portfolio</Link>
+                                <Link to="portfolio" className="block py-2 px-3  rounded-sm hover:bg-gray-100 md:hover:bg-transparent hover:text-highlight md:p-0">Portfolio</Link>
                             </li>
                             <li>
-                                <button onClick={toggleModal} className="hover:text-black block cursor-pointer py-2 px-3  rounded-sm hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Contact</button>
+                                <button onClick={toggleModal} className="hover:text-highlight block cursor-pointer py-2 px-3  rounded-sm hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Contact</button>
                             </li>
                         </ul>
                     </div>

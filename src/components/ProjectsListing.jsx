@@ -22,7 +22,7 @@ const ProjectsListing = () => {
             <section className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-12 py-8 ">
                 {projectsData.sort((a, b) => b.id - a.id).map((project, key) => {
                     return (
-                        <div key={key} className='bg-zinc-50 dark:bg-primary-bg border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 p-2 md:p-4 rounded-lg'>
+                        <div key={key} className='bg-zinc-50 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 p-2 md:p-4 rounded-lg'>
                             <div className="flex items-center gap-x-4">
                                 {
                                     project.image ?
@@ -43,15 +43,15 @@ const ProjectsListing = () => {
                                             <GlobeIcon className="dark:bg-zinc-800 bg-zinc-100 rounded-md p-2 lg:min-w-[50px]" width={60} height={60} />
                                 }
                                 <div className='w-full overflow-hidden'>
-                                    <h2 className="text-lg tracking-wide mb-1">{project.title}</h2>
+                                    <h2 className="text-lg tracking-wide mb-1 font-semibold">{project.title}</h2>
                                     <div className="text-sm dark:text-zinc-400 text-zinc-600 text-ellipsis max-h-10 overflow-auto">{project.description}</div>
                                 </div>
                             </div>
                             <div className='pt-2 flex justify-between'>
-                                <a target='_blank' href={project.link} className="font-semibold flex justify-between gap-2 items-center text-zinc-700 bg-zinc-200 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm px-2 py-1 text-center cursor-pointer">
+                                <a target='_blank' href={project.link} className=" flex justify-between gap-2 items-center font-medium text-zinc-700 bg-zinc-200 hover:bg-zinc-300 focus:ring-2 focus:outline-none focus:ring-zinc-800 rounded text-sm px-2 py-1 text-center cursor-pointer">
                                     Live Demo <GlobeIcon className='max-lg:size-4 size-5' />
                                 </a>
-                                <button onClick={() => handleOpenModal(project)} className="flex justify-between gap-2 items-center font-semibold text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-2 focus:outline-none focus:ring-zinc-300 rounded text-sm px-2 py-1 text-center cursor-pointer">
+                                <button onClick={() => handleOpenModal(project)} className="flex justify-between gap-2 items-center font-medium text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-2 focus:outline-none focus:ring-zinc-300 rounded text-sm px-2 py-1 text-center cursor-pointer">
                                     Read More <ArrowUpRightFromCircleIcon className='max-lg:size-4 size-5' />
                                 </button>
                             </div>
