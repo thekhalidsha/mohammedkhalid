@@ -31,7 +31,7 @@ const ContactModal = ({ toggleModal }) => {
                                                     </a>
                                                 )
                                             })}
-                                            <a href="hhttps://cal.com/thekhalidsha/15min" target='_blank' title='Schedule a Meeting' className='group hover:border-zinc-700 inline-block border rounded-md p-1 border-zinc-500'>
+                                            <a href="https://cal.com/thekhalidsha/15min" target='_blank' title='Schedule a Meeting' className='group hover:border-zinc-700 inline-block border rounded-md p-1 border-zinc-500'>
                                                 <CalendarClockIcon className='size-6 text-zinc-500 group-hover:text-zinc-700' />
                                             </a>
                                         </div>
