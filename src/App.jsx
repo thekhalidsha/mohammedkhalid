@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<PublicLayout />}>
             <Route index element={<HomePage />} />
             <Route path="portfolio" element={<Projects />} />
-            <Route path="/portfolio/:id" element={<ProjectDetailss />} />
+            {/* <Route path="/portfolio/:id" element={<ProjectDetailss />} /> */}
           </Route>
           <Route path="*" element={<NotFound />} />
           <Route path="/test" element={<SideBar />} />
