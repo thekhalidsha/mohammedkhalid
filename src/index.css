@@ -42,7 +42,7 @@ body {
   font-family: Incognito, sans-serif;
 }
 @theme {
-  --color-highlight: #5a7dbf; /* Master Primary Color [CHANGE THIS IF NEEDED TO CHANGE THE PRIMARY COLOR] */
+  --color-highlight: #f56565; /* Master Primary Color [CHANGE THIS IF NEEDED TO CHANGE THE PRIMARY COLOR] */
   --font-heading: "Incognito", sans-serif;
   
   
@@ -78,4 +78,19 @@ body {
 .font-semibold,
 .font-bold {
   color: var(--color-highlight);
+}
+
+
+.roundx {
+  @apply border bg-zinc-600 fixed bottom-3 right-3 text-amber-50;
+}
+
+/* .roundx:hover{
+  border-radius: 10px;
+  @apply h-20 w-64;
+  transition: all 0.5s ease, border-radius 100ms linear;
+} */
+
+.trans {
+  transition: all 0.2s ease, border-radius 0.1s linear;
 }
