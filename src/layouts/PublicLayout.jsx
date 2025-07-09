@@ -9,8 +9,8 @@ const PublicLayout = () => {
         <>
             <Navbar />
             <Outlet />
-            <Footer className={`md:text-right`}/>
-            <ColorChanger/>
+            <Footer className={`md:text-right`} />
+            {/* <ColorChanger /> */}
         </>
     )
 }

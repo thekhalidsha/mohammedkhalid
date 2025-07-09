@@ -42,7 +42,7 @@ body {
   font-family: Incognito, sans-serif;
 }
 @theme {
-  --color-highlight: #f56565; /* Master Primary Color [CHANGE THIS IF NEEDED TO CHANGE THE PRIMARY COLOR] */
+  --color-highlight:  #4f89ef; /* Master Primary Color [CHANGE THIS IF NEEDED TO CHANGE THE PRIMARY COLOR] */
   --font-heading: "Incognito", sans-serif;
   
   

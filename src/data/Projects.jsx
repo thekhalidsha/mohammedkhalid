@@ -86,6 +86,16 @@ const projectsData = [
     github: "https://github.com/thekhalidsha/ns_website_revamp/tree/django",
     readmeUrl: "https://github.com/thekhalidsha/ns_website_revamp/tree/django"
   },
+  {
+    id: "8",
+    title: "CG-IFMS Revamp - ReactJs ",
+    description: "A Responsive frontend design revamp for CG-IFMS - A Government financial audit software using ReactJs & Tailwind CSS.",
+    // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
+    // icon: SiPhp,
+    link: "https://cgifms.vercel.app/",
+    github: "https://github.com/thekhalidsha/mohammedkhalid/tree/minimalistic",
+    readmeUrl: ""
+  },
 
 ];
 export default projectsData;

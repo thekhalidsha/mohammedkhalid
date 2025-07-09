@@ -15,7 +15,7 @@ function App() {
             <Route path="portfolio" element={<Projects />} />
           </Route>
           <Route path="*" element={<NotFound />} />
-          <Route path="/test" element={<SideBar />} />
+          {/* <Route path="/test" element={<SideBar />} /> */}
 
         </Routes>
       </BrowserRouter>
