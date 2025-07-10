@@ -1,13 +1,13 @@
 import { SiGooglecalendar, SiInstagram, SiPhp } from "@icons-pack/react-simple-icons";
 import cz from './../assets/companies/chainzent.ico'
 import { UserCircle } from "lucide-react";
-
+import me from './../assets/me.png'
 const projectsData = [
   {
     id: "1",
     title: "Personal Portfolio - ReactJs ",
     description: "A Simple Responsive Website & Minimalistic Portfolio website using ReactJs & Tailwind CSS.",
-    // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
+    image: me,
     // icon: SiPhp,
     link: "/",
     github: "https://github.com/thekhalidsha/mohammedkhalid/tree/minimalistic",
@@ -19,9 +19,9 @@ const projectsData = [
     description: "A Simple PHP MVC Framework (without the need for composer)",
     // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
     icon: SiPhp,
-    link: "https://github.com/thekhalidsha/php-mvc-simple-framework",
-    github: "https://github.com/thekhalidsha/php-mvc-simple-framework",
-    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/php-mvc-simple-framework/refs/heads/main/README.md"
+    link: "https://thekhalidsha.gitbook.io/slym-php-docs",
+    github: "https://github.com/thekhalidsha/slymphp/",
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/slymphp.md"
   },
   {
     id: "3",
@@ -58,7 +58,7 @@ const projectsData = [
     // icon: SiGooglecalendar,
     link: "https://chainzent-viewport.web.app/",
     github: "https://github.com/thekhalidsha/Chainzent-NextJs",
-    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/Chainzent-NextJs/refs/heads/main/README.md"
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/ChainzentRevamp.md"
   },
   {
     id: "6",
@@ -66,9 +66,9 @@ const projectsData = [
     description: "A website design inspired on women empowerment. Completely built on HTML, CSS & Vanilla JS",
     // image: cz,
     icon: UserCircle,
-    link: "https://chainzent-viewport.web.app/",
+    link: "https://thekhalidsha.github.io/Femprish_Template/",
     github: "https://github.com/thekhalidsha/Femprish_Template",
-    readmeUrl: "https://github.com/thekhalidsha/Femprish_Template"
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/Femprish.md"
   },
   {
     id: "7",
@@ -84,7 +84,7 @@ const projectsData = [
     // icon: UserCircle,
     link: "https://networkzsystems.com",
     github: "https://github.com/thekhalidsha/ns_website_revamp/tree/django",
-    readmeUrl: "https://github.com/thekhalidsha/ns_website_revamp/tree/django"
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/NetworkzSystems.md"
   },
   {
     id: "8",
@@ -94,7 +94,7 @@ const projectsData = [
     // icon: SiPhp,
     link: "https://cgifms.vercel.app/",
     github: "https://github.com/thekhalidsha/mohammedkhalid/tree/minimalistic",
-    readmeUrl: ""
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/CGIFMS_Revamp.md"
   },
 
 ];

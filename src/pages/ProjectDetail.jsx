@@ -26,8 +26,8 @@ const ProjectDetail = ({ toggleDetailModal, project }) => {
             <div className='backdrop-blur-md backdrop-opacity-100 font-heading text-9xl h-full flex justify-center items-center'>
                 <div className='absolute min-h-screen w-full -z-10' onClick={toggleDetailModal}></div>
                 <div className='max-w-screen-xl w-full  h-11/12 mx-auto px-2 py-6'>
-                    <div id="getintouch" className="w-full h-full overflow-hidden rounded-xl bg-zinc-200 p-6 md:p-6 shadow-xl">
-                        <div className="w-full rounded-md h-full max-h-full overflow-hidden bg-zinc-200  z-50">
+                    <div id="getintouch" className=" w-full h-full overflow-hidden rounded-xl bg-zinc-200 p-6 md:p-6 shadow-xl">
+                        <div className="w-full rounded-md h-full max-h-full overflow-hidden bg-zinc-200 z-50">
                                 <div className="text-left flex flex-col border-b">
                                     <div className='flex justify-between py-2 mx-2'>
                                         <h2 className="font-heading text-2xl md:text-3xl font-semibold">{selectedProject.title}</h2>
@@ -42,7 +42,7 @@ const ProjectDetail = ({ toggleDetailModal, project }) => {
                                     </div>
 
                                 </div>
-                            <div className="h-full overflow-y-scroll">
+                            <div className="h-full  overflow-y-scroll pb-10">
                                 <div className='max-md:py-1 m-2 text-zinc-700 text-sm cursor-pointer md:p-1'>
                                     <div className="markdown-body p-2 border-0" style={{ backgroundColor: 'transparent' }}>
                                         <ReactMarkdown>
