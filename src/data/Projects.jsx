@@ -29,9 +29,9 @@ const projectsData = [
     description: "A PHP Built robust and multi role based cultural and technical event management system. It allows users to manage events seamlessly with features for registration, scheduling, and notifications. It includes features for user authentication, event tracking, and real-time updates.",
     // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
     icon: SiGooglecalendar,
-    link: "https://github.com/thekhalidsha/laasya_23/tree/web-latest",
-    github: "https://github.com/thekhalidsha/laasya_23/tree/web-latest",
-    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/laasya_23/refs/heads/web-latest/README.md"
+    link: "#",
+    github: "#",
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/Laasya.md"
   },
   {
     id: "4",
@@ -46,9 +46,9 @@ const projectsData = [
 
     // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
     icon: SiInstagram,
-    link: "https://github.com/thekhalidsha/laasya_23/tree/web-latest",
-    github: "https://github.com/thekhalidsha/laasya_23/tree/web-latest",
-    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/laasya_23/refs/heads/web-latest/README.md"
+    link: "https://thekhalidsha.pythonanywhere.com/",
+    github: "#",
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/Instanza.md"
   },
   {
     id: "5",
