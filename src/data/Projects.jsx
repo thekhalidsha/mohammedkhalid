@@ -1,4 +1,4 @@
-import { SiGooglecalendar, SiInstagram, SiPhp } from "@icons-pack/react-simple-icons";
+import { SiGooglecalendar, SiInstagram, SiNpm, SiPhp } from "@icons-pack/react-simple-icons";
 import cz from './../assets/companies/chainzent.ico'
 import { UserCircle } from "lucide-react";
 import me from './../assets/me.png'
@@ -44,8 +44,8 @@ const projectsData = [
       </>
     ),
 
-    // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
-    icon: SiInstagram,
+    image: "https://thekhalidsha.pythonanywhere.com/static/images/instanza_favicon.png",
+    // icon: SiInstagram,
     link: "https://thekhalidsha.pythonanywhere.com/",
     github: "#",
     readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/Instanza.md"
@@ -64,8 +64,8 @@ const projectsData = [
     id: "6",
     title: "Femprish - Website Design",
     description: "A website design inspired on women empowerment. Completely built on HTML, CSS & Vanilla JS",
-    // image: cz,
-    icon: UserCircle,
+    image: 'https://thekhalidsha.github.io/Femprish_Template/assets/images/favicon.jpg',
+    // icon: UserCircle,
     link: "https://thekhalidsha.github.io/Femprish_Template/",
     github: "https://github.com/thekhalidsha/Femprish_Template",
     readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/Femprish.md"
@@ -88,9 +88,19 @@ const projectsData = [
   },
   {
     id: "8",
+    title: "Easy Fullscreen - UI Component ",
+    description: "A simple and lightweight React component for creating **fullscreen sliding sections** – horizontally or vertically.",
+    // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
+    icon: SiNpm,
+    link: "https://www.npmjs.com/package/@thekhalidsha/easy-fullscreen",
+    github: "https://github.com/thekhalidsha/easy-fullscreen",
+    readmeUrl: "https://raw.githubusercontent.com/thekhalidsha/portfolio-readme/refs/heads/main/easy-fullscreen.md"
+  },
+  {
+    id: "9",
     title: "CG-IFMS Revamp - ReactJs ",
     description: "A Responsive frontend design revamp for CG-IFMS - A Government financial audit software using ReactJs & Tailwind CSS.",
-    // image: "https://avatars.githubusercontent.com/u/72810866?s=600&v=4",
+    image: "https://cgifms.vercel.app/favicon.svg",
     // icon: SiPhp,
     link: "https://cgifms.vercel.app/",
     github: "https://github.com/thekhalidsha/mohammedkhalid/tree/minimalistic",
