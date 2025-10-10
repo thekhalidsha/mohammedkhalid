@@ -16,6 +16,6 @@ EXPOSE 81
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=builder /app/dist /usr/share/nginx/html/bills
+COPY --from=builder /app/dist /usr/share/nginx/html/
 
 CMD ["nginx", "-g", "daemon off;"]
