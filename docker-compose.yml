@@ -1,9 +1,13 @@
-version: '3.9'
+version: "3.9"
 
 services:
   react-app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: react-app
     ports:
-      - "3002:81"
+      - "3002:80"  # Changed to match Nginx's EXPOSE 80
     restart: unless-stopped
+    environment:
+      - NODE_ENV=production
