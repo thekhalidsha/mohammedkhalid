@@ -7,6 +7,6 @@ services:
     ports:
       - "3002:80"
     volumes:
-  - ./build:/usr/share/nginx/html
-  - ./nginx:/etc/nginx/conf.d:ro
+      - ./build:/usr/share/nginx/html
+      - ./nginx:/etc/nginx/conf.d:ro
     restart: unless-stopped
